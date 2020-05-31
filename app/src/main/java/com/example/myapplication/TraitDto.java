@@ -1,7 +1,7 @@
 package com.example.myapplication;
 
 public class TraitDto {
-    private string name;
+    private String name;
     private int num_units;
     private int tier_current;
     private int tier_total;
@@ -11,7 +11,7 @@ public class TraitDto {
         super();
     }
 
-    public TraitDto(string name, int num_units, int tier_current, int tier_total) {
+    public TraitDto(String name, int num_units, int tier_current, int tier_total) {
         super();
         this.name = name;
         this.num_units = num_units;
@@ -20,11 +20,11 @@ public class TraitDto {
     }
 
     //getter,setter
-    public string getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void setName(String name) {
         this.name = name;
     }
 

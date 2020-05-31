@@ -1,16 +1,19 @@
 package com.example.myapplication;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MetadataDto {
-    private string data_version;
-    private string match_id;
-    private List<string> participants = new List<string>();
+    private String data_version;
+    private String match_id;
+    private ArrayList<String> participants = new ArrayList<String>();
 
     //생성자
     public MetadataDto() {
         super();
     }
 
-    public MetadataDto(string data_version, string match_id, List<string> participants) {
+    public MetadataDto(String data_version, String match_id, ArrayList<String> participants) {
         super();
         this.data_version = data_version;
         this.match_id = match_id;
@@ -18,28 +21,27 @@ public class MetadataDto {
     }
     //getter,setter
 
-    public string getData_version() {
+    public String getData_version() {
         return data_version;
     }
 
-    public void setData_version(string data_version) {
+    public void setData_version(String data_version) {
         this.data_version = data_version;
     }
 
-    public string getMatch_id() {
+    public String getMatch_id() {
         return match_id;
     }
 
-    public void setMatch_id(string match_id) {
+    public void setMatch_id(String match_id) {
         this.match_id = match_id;
     }
 
-
-    public List<string> getParticipants() {
+    public List<String> getParticipants() {
         return participants;
     }
 
-    public void setParticipants(List<string> participants) {
+    public void setParticipants(ArrayList<String> participants) {
         this.participants = participants;
     }
 }

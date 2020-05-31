@@ -1,12 +1,12 @@
 package com.example.myapplication;
 
 public class LeagueEntryDTO {
-    private string leagueId;
-    private string queueType;
-    private string tier;
-    private string rank;
-    private string summonerId;
-    private string summonerName;
+    private String leagueId;
+    private String queueType;
+    private String tier;
+    private String rank;
+    private String summonerId;
+    private String summonerName;
     private int leaguePoints;
     private int wins;
     private int losses;
@@ -19,7 +19,7 @@ public class LeagueEntryDTO {
         super();
     }
 
-    public LeagueEntryDTO(string leagueId, string queueType, string tier, string rank, string summonerId, string summonerName, int leaguePoints, int wins, int losses, boolean veteran, boolean inactive, boolean freshBlood, boolean hotStreak) {
+    public LeagueEntryDTO(String leagueId, String queueType, String tier, String rank, String summonerId, String summonerName, int leaguePoints, int wins, int losses, boolean veteran, boolean inactive, boolean freshBlood, boolean hotStreak) {
         super();
         this.leagueId = leagueId;
         this.queueType = queueType;
@@ -36,51 +36,51 @@ public class LeagueEntryDTO {
         this.hotStreak = hotStreak;
     }
 
-    public string getLeagueId() {
+    public String getLeagueId() {
         return leagueId;
     }
 
-    public void setLeagueId(string leagueId) {
+    public void setLeagueId(String leagueId) {
         this.leagueId = leagueId;
     }
 
-    public string getQueueType() {
+    public String getQueueType() {
         return queueType;
     }
 
-    public void setQueueType(string queueType) {
+    public void setQueueType(String queueType) {
         this.queueType = queueType;
     }
 
-    public string getTier() {
+    public String getTier() {
         return tier;
     }
 
-    public void setTier(string tier) {
+    public void setTier(String tier) {
         this.tier = tier;
     }
 
-    public string getRank() {
+    public String getRank() {
         return rank;
     }
 
-    public void setRank(string rank) {
+    public void setRank(String rank) {
         this.rank = rank;
     }
 
-    public string getSummonerId() {
+    public String getSummonerId() {
         return summonerId;
     }
 
-    public void setSummonerId(string summonerId) {
+    public void setSummonerId(String summonerId) {
         this.summonerId = summonerId;
     }
 
-    public string getSummonerName() {
+    public String getSummonerName() {
         return summonerName;
     }
 
-    public void setSummonerName(string summonerName) {
+    public void setSummonerName(String summonerName) {
         this.summonerName = summonerName;
     }
 

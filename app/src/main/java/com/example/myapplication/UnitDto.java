@@ -1,10 +1,12 @@
 package com.example.myapplication;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class UnitDto {
-    private List<int> items = new List<int>();
-    private string character_id;
-    private string name;
+    private ArrayList<Integer> items = new ArrayList<Integer>();
+    private String character_id;
+    private String name;
     private int rarity;
     private int tier;
 
@@ -13,7 +15,7 @@ public class UnitDto {
         super();
     }
 
-    public UnitDto(List<int> items, string character_id, string name, int rarity, int tier) {
+    public UnitDto(ArrayList<Integer> items, String character_id, String name, int rarity, int tier) {
         super();
         this.items = items;
         this.character_id = character_id;
@@ -23,27 +25,27 @@ public class UnitDto {
     }
 
     //getter,setter
-    public List<int> getItems() {
+    public List<Integer> getItems() {
         return items;
     }
 
-    public void setItems(List<int> items) {
+    public void setItems(ArrayList<Integer> items) {
         this.items = items;
     }
 
-    public string getCharacter_id() {
+    public String getCharacter_id() {
         return character_id;
     }
 
-    public void setCharacter_id(string character_id) {
+    public void setCharacter_id(String character_id) {
         this.character_id = character_id;
     }
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void setName(String name) {
         this.name = name;
     }
 

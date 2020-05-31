@@ -3,12 +3,12 @@ package com.example.myapplication;
 public class SummonerDTO {
 
     //필드
-    private string accountId;
+    private String accountId;
     private int profileIconId;
     private long revisionDate;
-    private string name;
-    private string id;
-    private string puuid;
+    private String name;
+    private String id;
+    private String puuid;
     private long summonerLevel;
 
 
@@ -17,7 +17,7 @@ public class SummonerDTO {
         super();
     }
 
-    public SummonerDTO(string accountId,int profileIconId,long revisionDate,string name,string id,string puuid,long summonerLevel) {
+    public SummonerDTO(String accountId,int profileIconId,long revisionDate,String name,String id,String puuid,long summonerLevel) {
         super();
         this.accountId = accountId;
         this.profileIconId = profileIconId;
@@ -29,11 +29,11 @@ public class SummonerDTO {
     }
 
     //getter,setter
-    public string getAccountId() {
+    public String getAccountId() {
         return accountId;
     }
 
-    public void setAccountId(string accountId) {
+    public void setAccountId(String accountId) {
         this.accountId = accountId;
     }
 
@@ -53,27 +53,27 @@ public class SummonerDTO {
         this.revisionDate = revisionDate;
     }
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(string name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public string getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(string id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public string getPuuid() {
+    public String getPuuid() {
         return puuid;
     }
 
-    public void setPuuid(string puuid) {
+    public void setPuuid(String puuid) {
         this.puuid = puuid;
     }
 

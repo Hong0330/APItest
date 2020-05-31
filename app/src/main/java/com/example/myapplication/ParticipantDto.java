@@ -1,5 +1,8 @@
 package com.example.myapplication;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ParticipantDto {
     private CompanionDto companion;
     private int gold_left;
@@ -7,18 +10,18 @@ public class ParticipantDto {
     private int level;
     private int placement;
     private int players_eliminated;
-    private string puuid;
+    private String puuid;
     private float time_eliminated;
     private int total_damage_to_players;
-    private List<TraitDto> traits = new List<TraitDto>();
-    private List<UnitDto> units = new List<UnitDto>();
+    private ArrayList<TraitDto> traits = new ArrayList<TraitDto>();
+    private ArrayList<UnitDto> units = new ArrayList<UnitDto>();
 
     //생성자
     public ParticipantDto() {
         super();
     }
 
-    public ParticipantDto(CompanionDto companion, int gold_left, int last_round, int level, int placement, int players_eliminated, string puuid, float time_eliminated, int total_damage_to_players, List<TraitDto> traits, List<UnitDto> units) {
+    public ParticipantDto(CompanionDto companion, int gold_left, int last_round, int level, int placement, int players_eliminated, String puuid, float time_eliminated, int total_damage_to_players, ArrayList<TraitDto> traits, ArrayList<UnitDto> units) {
         super();
         this.companion = companion;
         this.gold_left = gold_left;
@@ -82,11 +85,11 @@ public class ParticipantDto {
         this.players_eliminated = players_eliminated;
     }
 
-    public string getPuuid() {
+    public String getPuuid() {
         return puuid;
     }
 
-    public void setPuuid(string puuid) {
+    public void setPuuid(String puuid) {
         this.puuid = puuid;
     }
 
@@ -110,7 +113,7 @@ public class ParticipantDto {
         return traits;
     }
 
-    public void setTraits(List<TraitDto> traits) {
+    public void setTraits(ArrayList<TraitDto> traits) {
         this.traits = traits;
     }
 
@@ -118,7 +121,7 @@ public class ParticipantDto {
         return units;
     }
 
-    public void setUnits(List<UnitDto> units) {
+    public void setUnits(ArrayList<UnitDto> units) {
         this.units = units;
     }
 }

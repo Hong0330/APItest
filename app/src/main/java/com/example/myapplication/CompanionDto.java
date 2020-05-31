@@ -1,16 +1,16 @@
 package com.example.myapplication;
 
 public class CompanionDto {
-    private string content_ID;
+    private String content_ID;
     private int skin_ID;
-    private string species;
+    private String species;
 
     //생성자
     public CompanionDto() {
         super();
     }
 
-    public CompanionDto(string content_ID, int skin_ID, string species) {
+    public CompanionDto(String content_ID, int skin_ID, String species) {
         super();
         this.content_ID = content_ID;
         this.skin_ID = skin_ID;
@@ -18,11 +18,11 @@ public class CompanionDto {
     }
 
     //getter,setter
-    public string getContent_ID() {
+    public String getContent_ID() {
         return content_ID;
     }
 
-    public void setContent_ID(string content_ID) {
+    public void setContent_ID(String content_ID) {
         this.content_ID = content_ID;
     }
 
@@ -34,11 +34,11 @@ public class CompanionDto {
         this.skin_ID = skin_ID;
     }
 
-    public string getSpecies() {
+    public String getSpecies() {
         return species;
     }
 
-    public void setSpecies(string species) {
+    public void setSpecies(String species) {
         this.species = species;
     }
 }
